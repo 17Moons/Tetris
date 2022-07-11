@@ -10,7 +10,7 @@ connectionManager.connect('wss://{{https://tetrisbackend17.herokuapp.com/}}/');
 
 const keyListener = (e) => {
     [
-        [66, 68, 81, 69, 83],
+        [65, 68, 81, 69, 83],
         [72, 75, 89, 73, 74],
     ].forEach((key, index) => {
         const player = localTetris.player;
