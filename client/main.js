@@ -5,7 +5,7 @@ localTetris.run();
 
 const connectionManager = new ConnectionManager(tetrisManager);
 
-connectionManager.connect('https://tetrisbackend17.herokuapp.com/');
+connectionManager.connect('wss://tetrisbackend17.herokuapp.com/');
 
 
 const keyListener = (e) => {
